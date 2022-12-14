@@ -31,7 +31,7 @@
 > yarn workspace @typescript-plane-boilerplate/backend start:dev
 
 # nextjs 管理画面起動
-> yarn workspace @typescript-plane-boilerplate/admin start:dev
+> yarn workspace @typescript-plane-boilerplate/web start:dev
 
 # erd更新
 > docker-compose up -d

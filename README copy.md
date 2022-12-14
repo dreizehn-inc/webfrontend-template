@@ -1,18 +1,15 @@
-# application-boilerplate
+# webfrontend-template
 
-A boilerplate for a web application composed of golang and typescript
+A boilerplate for a web application composed of typescript
 
 ## Apps
 
 | Package                                  | Localhost             | Prodction |
 | :--------------------------------------- | :-------------------- | :-------- |
-| **[[NEXT.JS] admin](./packages/admin)**  | http://localhost:3000 | admin.\*  |
-| **[[NEST.JS] api](./packages/backend)**  | http://localhost:3001 | api.\*    |
-| **[[Swagger] docs](./packages/backend)** | http://localhost:3002 |           |
+| **[[NEXT.JS] web](./packages/web)**  | http://localhost:3000 | web.\*  |
 
 ## document links
 
 | Title                                             |
 | :------------------------------------------------ |
 | **[typescript 環境構築](./docs/typescript.md)**   |
-| **[DB schema migration](./docs/db-migration.md)** |
