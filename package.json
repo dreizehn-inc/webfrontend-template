@@ -9,7 +9,7 @@
     "clean": "yarn turbo run clean"
   },
   "devDependencies": {
-    "@types/jest": "29.5.11",
+    "@types/jest": "29.5.12",
     "@types/supertest": "6.0.2",
     "@typescript-eslint/eslint-plugin": "6.19.0",
     "@typescript-eslint/parser": "6.19.0",
