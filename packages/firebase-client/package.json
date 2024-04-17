@@ -1,5 +1,5 @@
 {
-  "name": "@typescript-plane-boilerplate/firebase-client",
+  "name": "@dreizehn/firebase-client",
   "version": "1.0.0",
   "private": true,
   "main": "cjs/index.js",
