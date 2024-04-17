@@ -21,7 +21,7 @@ jobs:
           version: 8
 
       - name: Install deps
-        run: pnpm
+        run: pnpm Install
 
       - name: Lint
         run: pnpm lint
