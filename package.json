@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "build": "yarn turbo run build",
-    "lint": "eslint --fix -c ./.eslintrc.json './packages/**/*.{ts,tsx}'",
+    "lint": "eslint --fix -c ./.eslintrc.json './**/*.{ts,tsx}'",
     "test": "yarn turbo run test",
     "clean": "yarn turbo run clean"
   },

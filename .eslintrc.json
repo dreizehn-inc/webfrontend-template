@@ -28,7 +28,9 @@
     "react-hooks/exhaustive-deps": "warn",
     "require-atomic-updates": "off",
     "no-console": "off",
-    "prettier/prettier": "warn"
+    "prettier/prettier": "warn",
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off"
   },
   "settings": {
     "react": {

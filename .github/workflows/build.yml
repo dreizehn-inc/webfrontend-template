@@ -17,15 +17,11 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Prepare file
-        run: |
-          cp packages/web/.env.tmpl packages/web/.env
-
       - name: Install deps
-        run: yarn
+        run: pnpm
 
       - name: Lint
-        run: yarn lint
+        run: pnpm lint
 
       - name: Build
-        run: yarn build
+        run: pnpm build
