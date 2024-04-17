@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "yarn turbo run build",
+    "build": "npx turbo run build",
     "lint": "eslint --fix -c ./.eslintrc.json './**/*.{ts,tsx}'",
-    "test": "yarn turbo run test",
-    "clean": "yarn turbo run clean"
+    "test": "npx turbo run test",
+    "clean": "npx turbo run clean"
   },
   "devDependencies": {
     "@types/jest": "29.5.12",
