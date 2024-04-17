@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "yarn turbo run build",
-    "lint": "eslint --fix -c ./.eslintrc.json './packages/**/*.{ts,tsx}'",
-    "test": "yarn turbo run test",
-    "clean": "yarn turbo run clean"
+    "build": "npx turbo run build",
+    "lint": "eslint --fix -c ./.eslintrc.json './**/*.{ts,tsx}'",
+    "test": "npx turbo run test",
+    "clean": "npx turbo run clean"
   },
   "devDependencies": {
     "@types/jest": "29.5.12",
@@ -60,7 +60,11 @@
       "git add"
     ]
   },
+  "packageManager": "pnpm@7.19.0",
   "engines": {
-    "node": "16"
+    "node": "18",
+    "npm": "use pnpm please!",
+    "yarn": "use pnpm please!",
+    "pnpm": ">=7.19.0"
   }
 }
